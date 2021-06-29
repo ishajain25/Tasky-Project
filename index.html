@@ -20,7 +20,7 @@
 
     <title> Tasky </title>
 </head>
-<body>
+<body onload="loadInitialTaskCards()">
     
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -104,30 +104,7 @@
     <!--CARD-->
 
     <section>
-        <div class="row task__container">
-            <div class="col-md-6 col-lg-4">
-                <div class="card ">
-                    <div class="card-header d-flex justify-content-end gap-2">
-                        <button type="button" class="btn btn-outline-success">
-                            <i class="fas fa-pencil-alt"></i>
-                        </button>
-                        <button type="button" class="btn btn-outline-danger">
-                            <i class="fas fa-trash"></i>
-                        </button>
-                    </div>
-                    <img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" class="card-img-top" alt="Image ">
-                    <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <span class="badge bg-primary"> Amazing </span>
-                    </div>
-                    <div class="card-footer text-muted "> 
-                        <button type="button" class="btn btn-outline-primary float-end"> Open Task </button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <div class="row task__container"> </div>
     </section>
 
     </div>
