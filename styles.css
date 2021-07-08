@@ -8,3 +8,13 @@ body{
     font-family: "Poppins",sans-serif;
     background-color: #ebf2ff;
 }
+
+.card-image{
+    height: 250px;
+}
+
+.card-image > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}

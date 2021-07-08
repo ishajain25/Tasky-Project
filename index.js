@@ -22,7 +22,9 @@ const newCard = ({
             <i class="fas fa-trash" id=${id} onclick="deleteCard.apply(this, arguments)" ></i>
         </button>
     </div>
+    <div class="card-image" >
     <img src= ${imageUrl} class="card-img-top" alt="Image ">
+    </div>
     <div class="card-body">
     <h5 class="card-title"> ${taskTitle} </h5>
     <p class="card-text">${taskDescription}</p>
